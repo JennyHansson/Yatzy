@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_1_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 player"/>
+
+        <RadioButton
+            android:id="@+id/radio_2_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 players"/>
+
+        <RadioButton
+            android:id="@+id/radio_3_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 players"/>
+
+        <RadioButton
+            android:id="@+id/radio_4_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 players"
+            android:checked="true"/>
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="player1"
+        android:inputType="textPersonName"
+        android:id="@+id/edit_player1"
+        android:layout_below="@id/radioGroup"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="player2"
+        android:inputType="textPersonName"
+        android:id="@+id/edit_player2"
+        android:layout_below="@+id/edit_player1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_player2"
+        android:hint="player3"
+        android:inputType="textPersonName"
+        android:id="@+id/edit_player3"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_player3"
+        android:hint="player4"
+        android:inputType="textPersonName"
+        android:id="@+id/edit_player4"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_player4"
+        android:text="@string/start_game"
+        android:onClick="goToActivity_yatzy"
+        />
+
+
+</RelativeLayout>

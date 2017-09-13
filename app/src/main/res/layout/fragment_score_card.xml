@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@id/fragmentScoreCard" android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:layout_margin="10dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/nameTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/name" />
+
+        <TextView
+            android:id="@+id/p0"
+            style="@style/nameTableRowStyle"
+            android:textAlignment="center"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/p1"
+            style="@style/nameTableRowStyle"
+            android:textAlignment="center"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/p2"
+            style="@style/nameTableRowStyle"
+            android:textAlignment="center"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/p3"
+            style="@style/nameTableRowStyle"
+            android:textAlignment="center"
+            android:text=""/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/oddTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/ones" />
+
+        <TextView
+            android:id="@+id/p0f0"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f0"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f0"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f0"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/evenTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/twos" />
+
+        <TextView
+            android:id="@+id/p0f1"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f1"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f1"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f1"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/oddTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/threes" />
+
+        <TextView
+            android:id="@+id/p0f2"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f2"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f2"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f2"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/evenTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/fours" />
+
+        <TextView
+            android:id="@+id/p0f3"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f3"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f3"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f3"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/oddTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/fives" />
+
+        <TextView
+            android:id="@+id/p0f4"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f4"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f4"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f4"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/evenTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/sixes" />
+
+        <TextView
+            android:id="@+id/p0f5"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f5"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f5"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f5"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/autoScoreTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/sum" />
+
+        <TextView
+            android:id="@+id/p0f6"
+            style="@style/autoScoreTableRowStyle"
+            android:padding="3dip"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f6"
+            style="@style/autoScoreTableRowStyle"
+            android:padding="3dip"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f6"
+            style="@style/autoScoreTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f6"
+            style="@style/autoScoreTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/autoScoreTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/bonus" />
+
+        <TextView
+            android:id="@+id/p0f7"
+            style="@style/autoScoreTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f7"
+            style="@style/autoScoreTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f7"
+            style="@style/autoScoreTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f7"
+            style="@style/autoScoreTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/oddTableRowStyle"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="@string/one_pair" />
+
+        <TextView
+            android:id="@+id/p0f8"
+            style="@style/oddTableRowStyle"
+            android:padding="3dip"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f8"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f8"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f8"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/evenTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/two_pairs" />
+
+        <TextView
+            android:id="@+id/p0f9"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f9"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f9"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f9"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/oddTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/three_of_a_kind" />
+
+        <TextView
+            android:id="@+id/p0f10"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f10"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f10"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f10"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/evenTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/four_of_a_kind" />
+
+        <TextView
+            android:id="@+id/p0f11"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f11"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f11"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f11"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/oddTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/small_straight" />
+
+        <TextView
+            android:id="@+id/p0f12"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f12"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f12"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f12"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/evenTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/large_straight" />
+
+        <TextView
+            android:id="@+id/p0f13"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f13"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f13"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f13"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/oddTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/full_house" />
+
+        <TextView
+            android:id="@+id/p0f14"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f14"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f14"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f14"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/evenTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/chance" />
+
+        <TextView
+            android:id="@+id/p0f15"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f15"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f15"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f15"
+            style="@style/evenTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/oddTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/yatzy" />
+
+        <TextView
+            android:id="@+id/p0f16"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f16"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f16"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f16"
+            style="@style/oddTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/autoScoreTableRowStyle"
+            android:layout_column="1"
+            android:text="@string/total_sum" />
+
+        <TextView
+            android:id="@+id/p0f17"
+            style="@style/autoScoreTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p1f17"
+            style="@style/autoScoreTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p2f17"
+            style="@style/autoScoreTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/p3f17"
+            style="@style/autoScoreTableRowStyle"
+            android:text=""
+            android:textAlignment="center" />
+    </TableRow>
+
+</TableLayout>

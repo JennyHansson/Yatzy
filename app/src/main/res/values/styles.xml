@@ -1,0 +1,38 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.noActionbar" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="textTablePadding">
+        <item name="android:padding">3dip</item>
+    </style>
+
+    <style name="nameTableRowStyle" parent="textTablePadding">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="oddTableRowStyle" parent="textTablePadding">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="evenTableRowStyle" parent="textTablePadding">
+    </style>
+
+    <style name="autoScoreTableRowStyle" parent="textTablePadding">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+
+</resources>
